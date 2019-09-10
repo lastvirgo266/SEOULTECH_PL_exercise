@@ -23,7 +23,7 @@ class DefaultValue
 {
 	byte	byteVar;    // primitive value 1-1. Integral types(byte=8bit)
 	short	shortVar;   // primitive value 1-2. Integral types(short=16bit)
-	int	intVar;     // primitive value 1-3. Integral types(int=32bit)
+	int	    intVar;     // primitive value 1-3. Integral types(int=32bit)
 	long	longVar;   // primitive value 1-4. Integral types(long=64bit)
 
  	float  floatVar;   //primitive value 2-1. Floating point types(float=32bit)
