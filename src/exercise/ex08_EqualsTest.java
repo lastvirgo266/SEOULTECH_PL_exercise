@@ -57,6 +57,15 @@ public class ex08_EqualsTest {
 		 * 
 		 */
 		
+		
+		String str3, str4;
+		str3 = "성림학사";
+		str4 = str3;
+		
+		System.out.println("String1 : " + str3); 
+		System.out.println("String2 : " + str4);
+		System.out.println("Same object? " + (str3 == str4)); 
+		
 	}
 	
 }
