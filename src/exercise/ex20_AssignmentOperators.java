@@ -22,7 +22,10 @@ public class ex20_AssignmentOperators {
 		x = 10; x <<= y; System.out.println(" 9. x = "+ x);
 		x = 10; x >>= y; System.out.println("10. x = "+ x);
 		
-		//꺾쇠 3개 : 자바에는 unsigned 자료형이 없어서 unsigned를 유지한채로
+		
+		// <이거 시험에 나온다>
+		
+		//꺾쇠 3개 : 자바에는 unsigned 자료형이 없어서 unsigned를 유지한채로 밀어줌
 		//실무에서는 쓸일 없음
 		// <<< 는 없음
 		x = 10; x >>>= y; System.out.println("11. x = "+ x);//msb가 1이 아닌 0이 되서 양수의 값이 튀어나옴
