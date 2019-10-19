@@ -38,7 +38,7 @@ public class ex36_TestAB {
 		    temp = objectb.multi(2,2);
 		    System.out.println("B의 multi 수행결과" + temp);
 		    //temp = objecta.multi(20,20);  //Error  발생
-		    temp = objectb.multi(20, 20);
+		    //temp = objectb.multi(20, 20);
 		    System.out.println("A의 multi 수행결과" + temp);
 		  }
 }

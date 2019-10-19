@@ -11,7 +11,7 @@ public class ex06_StringTest {
 		System.out.println(a + b);
 		System.out.println(b + a);
 		System.out.println(a + a + b);
-		System.out.println(b + a + a);
+		System.out.println(b + a + a); //여기 중요
 	}
 
 }
