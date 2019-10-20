@@ -26,6 +26,7 @@ public class ex38_OverloadDemo1 {
 		    double result;
 		    ob.test();
 		    ob.test(100);
+		    ob.test(100.00);
 		    ob.test(5, 10);
 		    result = ob.test(4.2);
 		    System.out.println("ob.test(4.2)ÀÇ °á°ú : " + result);

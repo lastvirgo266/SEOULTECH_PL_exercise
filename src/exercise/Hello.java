@@ -9,9 +9,16 @@ public class Hello {
 		
 		x = -25;
 		x >>>= y;
+		System.out.println(Integer.toBinaryString(x));
 		
 		x = 27;
 		x >>= y;
+		System.out.println(Integer.toBinaryString(x));
+		
+		
+		x = 27;
+		x >>>= y;
+		System.out.println(Integer.toBinaryString(x));
 		z = Integer.toBinaryString(x);
 		System.out.println(x+y);
 		System.out.print(x+y+z+y+x+y);

@@ -14,7 +14,10 @@ public class ex20_AssignmentOperators {
 		x = 10; x%= y; System.out.println(" 5. x = "+ x);
 		
 		// 논리곱 논리합
+		
 		x = 10; x &=y; System.out.println(" 6. x = "+ x);
+		System.out.println(Integer.toBinaryString(x));
+		System.out.println(Integer.toBinaryString(y));
 		x = 10; x |= y; System.out.println(" 7. x = "+ x);
 		
 		

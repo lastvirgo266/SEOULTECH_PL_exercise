@@ -40,5 +40,11 @@ public class ex36_TestAB {
 		    //temp = objecta.multi(20,20);  //Error  발생
 		    //temp = objectb.multi(20, 20);
 		    System.out.println("A의 multi 수행결과" + temp);
+		    
+		    A new_obj = new B();
+		    new_obj.add(20, 20);
+		    //new_obj.multi() 사용 불가능
+		    
+		    
 		  }
 }

@@ -12,6 +12,7 @@ public class ex06_StringTest {
 		System.out.println(b + a);
 		System.out.println(a + a + b);
 		System.out.println(b + a + a); //여기 중요
+		System.out.println(" " + (a + a)); //여기 중요
 	}
 
 }
