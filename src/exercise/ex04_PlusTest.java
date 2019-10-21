@@ -22,5 +22,10 @@ public class ex04_PlusTest {
 		//compile error - 연산시 자동으로 int로 promotion이 일어남
 		c = (short)(a+b);
 		System.out.println(c);
+		
+		
+		
+		
+		
 	}
 }
