@@ -43,7 +43,6 @@ public class ex36_TestAB {
 		    
 		    A new_obj = new B();
 		    new_obj.add(20, 20);
-		    //new_obj.multi() 사용 불가능
 		    
 		    
 		  }

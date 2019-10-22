@@ -11,6 +11,10 @@ class PL extends Java{
 	public void print(String className){
 		System.out.println("Over ride" + teacher + "ÀÇ " + className);
 	}
+	
+	public void test() {
+		System.out.println("¹»ºÁ");
+	}
 }
 
 public class ex40_OverrideTest {
