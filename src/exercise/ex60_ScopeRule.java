@@ -9,6 +9,7 @@ public class ex60_ScopeRule {
 	  public int p(){
 	    int a;
 	    a = 0; b = 1; p = 2;
+	    print();
 	    return p;
 	  }
 	  

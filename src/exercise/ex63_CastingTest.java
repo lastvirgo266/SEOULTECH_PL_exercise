@@ -47,7 +47,7 @@ public class ex63_CastingTest {
 		n3.print(givenName_3, "야구선수");
 
 		n1 = n3;				
-//		n2 = (Name_2)n1;	// n1 = n3;를 주석처리하면 
+		//n2 = (Name_2)n1;	// n1 = n3;를 주석처리하면 
 					// 컴파일은 가능하나 런타임 에러.
 		System.out.println("이 선수의 성은 " + n1.surName);	
 		n1.print(givenName_2, "골프선수");

@@ -1,7 +1,8 @@
 package exercise;
 
 
-class Parent1 { 
+class Parent1 {
+	int parent;
 	protected void doSomething() { 
 		System.out.println("Parent1.doSomething()"); 
 	} 
@@ -9,6 +10,7 @@ class Parent1 {
 
 
 class Child1 extends Parent1 { 
+	int child;
 	public void doSomething() { 
 		System.out.println("Child1.doSomething()"); 
 	} 
@@ -19,7 +21,7 @@ public class ex51_UseBoth {
 	public void doOtherThing() { 
 		Parent1 p1=new Parent1(); 
 		Child1 c1 = new Child1(); 
-		Parent1 p2=new Child1(); 
+		Parent1 p2=new Child1();
 		p1.doSomething(); 
 		c1.doSomething();
 		p2.doSomething(); 

@@ -35,25 +35,24 @@ public class CastTest {
 	//p2_1 = new P1();
 	
 	p2_1=p2_2;
-	p2_1.print();
-	System.out.println(p2_1.name);
-	//P3, 이몽룡
+	p2_1.print(); //P3이름, 향단이
+	System.out.println(p2_1.name); //이몽룡
 	
 	
 	//다운 캐스팅이 일어날때는 형변환이 일어남
-//	p2_1=(P2)p1_2; //여기서 오류남
-//	p2_1.print();
-//	System.out.println(p2_1.name);
+	p2_1=(P2)p1_2;
+	p2_1.print();//P2, 이몽룡
+	System.out.println(p2_1.name);
 	//P2, 이몽룡
 	
 	p1_1=p2_2;
-	p1_1.print();
-	System.out.println(p1_1.name);
+	p1_1.print();//p3, 향단이
+	System.out.println(p1_1.name);//성춘향
 	//P3, 성춘향
 	
 	//업캐스팅
-//	p2_2=(P3)p1_2;
-//	System.out.println(p2_2.name);	
+	p2_2=(P3)p1_2; //에러
+	System.out.println(p2_2.name);
 	//P3, 이몽룡
 	
 	}

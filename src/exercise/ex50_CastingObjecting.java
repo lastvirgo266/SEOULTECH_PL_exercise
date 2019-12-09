@@ -13,7 +13,7 @@ class AA  {
 class BB extends AA  { 
 	int var = 20; 
 	void method()  { 
-		System.out.println("2"); 
+		System.out.println("2 var :" + var); 
 	} 
 }
 	

@@ -34,14 +34,14 @@ C c = new C();
 B b = new B();
 A a = new B();
 
-a.print();
-System.out.println(a.i);
+a.print();// 2012 = 2014 + 1
+System.out.println(a.i); //2015
 b = c;
-b.print();
-System.out.println(b.i);
+b.print(); // 2013 = 2014, 출력은 2015
+System.out.println(b.i); //2014
 
 a = b;
-a.print();
-System.out.println(a.i);
+a.print(); // 2014 = 2015, 출력은 2016
+System.out.println(a.i); //2012
 }
 }
